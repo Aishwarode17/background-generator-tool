@@ -1,0 +1,82 @@
+html,body{
+    margin:0px;
+    background: linear-gradient(to right, #FF9933, #ffffff,#00ff00 );
+    height: 100vh;
+}
+
+.main{
+    display:grid;
+    grid-template-columns: repeat(autofill, minmax(100px, 1fr));
+    
+    justify-items: center;
+    height: 60vh;
+    align-items: center;
+    grid-gap:0px;
+}
+
+h1{
+    text-align: center;
+    font-family: "courier";
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 2;
+    font-size: auto;
+    margin-bottom: 50px;
+}
+.color{
+   margin-top:0px  ;
+   border:5px solid silver;
+    z-index: 2;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+
+
+.color1, .color2, .color3{
+    border-radius:200px;
+    border:1px solid black;
+    
+}
+
+.instruction{
+    text-align: center;
+    padding: 5px;
+    font-family: "times-new-roman";
+    z-index: 2;
+    border: 5px dotted grey;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    position:absolute;
+    bottom:0vh;
+    border:5px solid black;
+    left:5%;
+    right:5%;
+    width: 90%;
+    font-family: cursive;
+    text-align:center;
+}
+
+
+.css{
+    font-family: fantasy sans-serif;
+    letter-spacing: normal;
+    border:1px solid black;
+    z-index: 2;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2px;
+}
+
+a{
+    text-decoration: none;
+    color:darkcyan;
+    
+}
+a:hover{
+    color:indianred;
+}
