@@ -1,0 +1,19 @@
+{
+  "name": "background-generator-tool",
+  "version": "1.0.0",
+  "description": "A tool that creates gradient",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aishwarode17/background-generator-tool.git"
+  },
+  "author": "Eaishawarya Malviya (Sindbad)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aishwarode17/background-generator-tool/issues"
+  },
+  "homepage": "https://github.com/Aishwarode17/background-generator-tool#readme"
+}
